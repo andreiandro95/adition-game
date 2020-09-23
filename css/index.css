@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.full-window{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 229, 255);
+}
+.display-game{
+    min-width: 60vw;
+    height: 40vh;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-num{
+    border: 5px solid green;
+    padding: 1.5rem 3rem;
+    font-size: 4rem;
+    margin-right: 1.3rem;
+}
+.second-num{
+    border: 5px solid blue;
+    padding: 1.5rem 3rem; 
+    font-size: 4rem;
+    margin-right: 1.3rem;
+}
+.add, .equal{
+    font-size: 4rem;
+    margin-right: 1.3rem;
+}
+.btn{
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    font-size-adjust: 1.5rem;
+}
+.eval-expression{
+    font-size: 1.5rem;
+    margin-right: 1.3rem;
+}
+.correct, .wrong{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.correct-answer{
+    font-size: 5rem;
+    color: green;
+    display: none;
+    text-align: center;
+}
+.wrong-answer, .answer-correct{
+    font-size: 5rem;
+    color: red;
+    display: none;
+    text-align: center;
+}
+.insert-interval{
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+}
+.insert-numbers{
+    color: white;
+    background-color: green;
+    border: 2px solid green;
+    margin-top: 1rem;
+}
